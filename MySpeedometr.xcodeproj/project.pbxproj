@@ -12,12 +12,12 @@
 		3F09FC691D30DD5000E23062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F09FC671D30DD5000E23062 /* Main.storyboard */; };
 		3F09FC6B1D30DD5000E23062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F09FC6A1D30DD5000E23062 /* Assets.xcassets */; };
 		3F09FC6E1D30DD5000E23062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F09FC6C1D30DD5000E23062 /* LaunchScreen.storyboard */; };
-		3F127CEC1D352C9B0047FB5D /* Submarine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F127CEB1D352C9B0047FB5D /* Submarine.aiff */; };
 		3F30D5431EAF5250000A9B8A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F30D5421EAF5250000A9B8A /* CoreLocation.framework */; };
 		3F30D5451EAF5257000A9B8A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F30D5441EAF5257000A9B8A /* MapKit.framework */; };
+		3F30D54C1EAF588E000A9B8A /* digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F30D54A1EAF588E000A9B8A /* digital.ttf */; };
+		3F30D54D1EAF588E000A9B8A /* Submarine.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3F30D54B1EAF588E000A9B8A /* Submarine.aiff */; };
 		3F555C561D378DA30091A1A4 /* STViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F555C551D378DA30091A1A4 /* STViewController.swift */; };
 		3F555C5A1D37C9EC0091A1A4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F555C591D37C9EC0091A1A4 /* MapViewController.swift */; };
-		3F6093DF1D3FF98A00E21A88 /* digital.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F6093DE1D3FF98A00E21A88 /* digital.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +28,12 @@
 		3F09FC6A1D30DD5000E23062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F09FC6D1D30DD5000E23062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F09FC6F1D30DD5000E23062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F127CEB1D352C9B0047FB5D /* Submarine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Submarine.aiff; sourceTree = "<group>"; };
 		3F30D5421EAF5250000A9B8A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		3F30D5441EAF5257000A9B8A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		3F30D54A1EAF588E000A9B8A /* digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = digital.ttf; sourceTree = "<group>"; };
+		3F30D54B1EAF588E000A9B8A /* Submarine.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Submarine.aiff; sourceTree = "<group>"; };
 		3F555C551D378DA30091A1A4 /* STViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STViewController.swift; sourceTree = "<group>"; };
 		3F555C591D37C9EC0091A1A4 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		3F6093DE1D3FF98A00E21A88 /* digital.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = digital.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 			children = (
 				3F09FC621D30DD5000E23062 /* MySpeedometr */,
 				3F09FC611D30DD5000E23062 /* Products */,
-				3F113AF01D33CEEF008D4962 /* Sound */,
 				3F30D5411EAF5250000A9B8A /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -78,17 +77,9 @@
 				3F09FC6A1D30DD5000E23062 /* Assets.xcassets */,
 				3F09FC6C1D30DD5000E23062 /* LaunchScreen.storyboard */,
 				3F09FC6F1D30DD5000E23062 /* Info.plist */,
+				3F30D54E1EAF58A6000A9B8A /* Sound */,
 			);
 			path = MySpeedometr;
-			sourceTree = "<group>";
-		};
-		3F113AF01D33CEEF008D4962 /* Sound */ = {
-			isa = PBXGroup;
-			children = (
-				3F127CEB1D352C9B0047FB5D /* Submarine.aiff */,
-				3F6093DE1D3FF98A00E21A88 /* digital.ttf */,
-			);
-			name = Sound;
 			sourceTree = "<group>";
 		};
 		3F30D5411EAF5250000A9B8A /* Frameworks */ = {
@@ -98,6 +89,16 @@
 				3F30D5421EAF5250000A9B8A /* CoreLocation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F30D54E1EAF58A6000A9B8A /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				3F30D54A1EAF588E000A9B8A /* digital.ttf */,
+				3F30D54B1EAF588E000A9B8A /* Submarine.aiff */,
+			);
+			name = Sound;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,9 +161,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F127CEC1D352C9B0047FB5D /* Submarine.aiff in Resources */,
-				3F6093DF1D3FF98A00E21A88 /* digital.ttf in Resources */,
+				3F30D54D1EAF588E000A9B8A /* Submarine.aiff in Resources */,
 				3F09FC6E1D30DD5000E23062 /* LaunchScreen.storyboard in Resources */,
+				3F30D54C1EAF588E000A9B8A /* digital.ttf in Resources */,
 				3F09FC6B1D30DD5000E23062 /* Assets.xcassets in Resources */,
 				3F09FC691D30DD5000E23062 /* Main.storyboard in Resources */,
 			);
